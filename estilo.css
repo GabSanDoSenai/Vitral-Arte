@@ -79,6 +79,235 @@ a {
     color: white;
     font-family: "Open";
 }
-footer {
+.sobre {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.sobre img {
+    width: 400px;
+}
+.sobre .conteudo {
+    width: 500px;
+    text-align: center;
+    margin-right: 100px;
+}
+.sobre, .conteudo h2 {
+    font-family: "RobotoR";
+    font-size: 30px;
+}
+span {
+    color: #106EEA;
+}
+.sobre, .conteudo p {
+    font-family: "Open";
+    font-size: 25px;
+    text-align: justify;
+}
+.dados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.caixa img{
+    width: 100px;
+}
+.caixa {
+    background-color: #F1F6FE;
+    border: 1px solid #8CA9CE;
+    width: 240px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 25px;
+}
+.numero {
+font-family: "Open";
+font-weight: 800;
+font-size: 30px;
+}
+.texto {
+    font-family: "RobotoR";
+    font-size: 25px;
+}
+.servicos .cubo p {
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.servicos .cubo {
+    border: 1px solid #8CA9CE;
+    height: 200px;
+    width: 275px;
+    margin: 50px 75px;
+    border-radius: 7px;
+}
+.todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.todos, .cubo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cubo p{
+    width: 230px;
+}
+.servicos {
+    text-align: center;
+}
+.servicos h2 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+.servicos p {
+    font-family: "Open";
+    font-size: 25px;
+    margin: 0 200px;
+}
+.equipe{
+    text-align: center;
+}
+.equipe h2 {
+    font-family: "Roboto";
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.equipe p {
+    font-family: "Open";
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.pessoas img{ 
+    width: 250px;
+}
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+.linha {
     background-color: #1150A3;
+    height: 2px;
+    margin-bottom: 80px;
+}
+.pessoas h5 {
+    font-family: "PoppinsB";
+    font-size: 25px;
+}
+.pessoa p {
+    font-family: "RobotoR";
+    font-size: 20px;
+}
+.pessoa {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.contato h2{
+    font-family: "Roboto";
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contato p {
+    font-family: "Open";
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.informacoes, .endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.endereco {
+    flex-direction: column;
+    border: 1px solid #8CA9CE;
+    height: 400px;
+    width: 430px;
+    margin-right: 30px;
+}
+.endereco h4 {
+    font-family: "Roboto";
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.endereco p {
+    font-family: "RobotoR";
+    font-size: 30px;
+    width: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    background-color: #E5E5E5;
+    color: #000000;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 0 20px 20px 0;
+    padding: 3px 5px;
+}
+input::placeholder, textarea::placeholder{
+    color: #C1C1C1;
+    font-family: "RobotoR";
+}
+button{
+    background-color: #106EEA;
+    color: white;
+    font-family: "Roboto";
+    border-radius: 10px;
+    font-size: 30px;
+    width: 300px;
+    padding: 7px 0;
+}
+textarea {
+    width: 780px;
+}
+footer {
+    margin-top: 100px;
+    background-color: #1150A3;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.junto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+h3 {
+    font-size: 30px;
+    font-family: "Open";
+    color: white;
+    align-items: left;
+    margin-left: 130px;
 }
